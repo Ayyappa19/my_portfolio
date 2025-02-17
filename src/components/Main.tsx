@@ -17,7 +17,7 @@ function Main() {
             <a href="https://github.com/Ayyappa19" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/ayyappa-swamy-y-521234258/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
-          <h1>Y Ayyappa Swamy</h1>
+          <h1>Ayyappa Swamy</h1>
           <p>Web Developer</p>
 
           <div className="mobile_social_icons">
