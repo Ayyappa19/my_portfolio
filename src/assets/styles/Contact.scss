@@ -1,0 +1,74 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+
+  fieldset {
+    background-color: transparent; /* Ensure background is transparent or match the form's background */
+    border: none; /* Remove unnecessary border */
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+  color: #050f0b;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+/* Add style to TextFields for better visibility */
+.MuiInputBase-root {
+  color: #050f0b; /* Ensure text is visible */
+}
+
+.MuiOutlinedInput-root {
+  background-color: #ffffff; /* Set input field background color */
+  border-radius: 4px; /* Add rounded corners to the input fields */
+  padding: 10px; /* Add padding inside input fields */
+  border: 1px solid #ccc; /* Light border color for better visibility */
+}
+
+.MuiInputLabel-root {
+  color: #050f0b; /* Ensure label text is visible */
+}
+
+.Mui-focused .MuiInputLabel-root {
+  color: #5000ca; /* Change label color when input is focused */
+}
+
+.Mui-focused .MuiOutlinedInput-root {
+  border-color: #5000ca; /* Change border color when input is focused */
+}
